@@ -31,10 +31,13 @@ const Nav = () => {
         </span>
       </div>
       <div className={style.icons}>
-        <Link to="https://www.linkedin.com/in/martinellilucas8/">
+        <Link
+          target="_blank"
+          to="https://www.linkedin.com/in/martinellilucas8/"
+        >
           <FaLinkedin className={style.icon} size={20} />
         </Link>
-        <Link to="https://github.com/martinellilucas">
+        <Link target="_blank" to="https://github.com/martinellilucas">
           <FaGithub className={style.icon} size={20} />
         </Link>
       </div>

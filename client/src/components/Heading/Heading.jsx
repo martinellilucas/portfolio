@@ -17,7 +17,7 @@ const Heading = () => {
         </p>
       </div>
       <div className={style.imgContainer}>
-        <img src={developer} alt="image"></img>
+        <img src={developer} alt="developer"></img>
       </div>
     </div>
   );
