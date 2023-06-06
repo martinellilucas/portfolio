@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 
 import {
+  SiExpress,
   SiJavascript,
   SiPostgresql,
   SiRedux,
@@ -49,13 +50,14 @@ const About = () => {
       <div className={style.tecnologies}>
         <SiJavascript color="white" size={60} />
         <FaJava color="white" size={60} />
-        <FaReact color="white" size={60} />
-        <FaNodeJs color="white" size={60} />
-        <SiRedux color="white" size={60} />
         <FaHtml5 color="white" size={60} />
         <FaCss3 color="white" size={60} />
+        <FaNodeJs color="white" size={60} />
+        <SiExpress color="white" size={60} />
         <SiSequelize color="white" size={60} />
         <SiPostgresql color="white" size={60} />
+        <FaReact color="white" size={60} />
+        <SiRedux color="white" size={60} />
       </div>
     </div>
   );
