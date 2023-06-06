@@ -48,3 +48,42 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+@media screen and (max-width: 800px) {
+  .descContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    width: 50%;
+  }
+  .textContainer {
+    width: 100%;
+  }
+  .name {
+    font-size: 2em;
+  }
+  .heading {
+    font-size: 1.8em;
+  }
+  .text {
+    font-size: 1em;
+  }
+  .tecnologies {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .tech {
+    width: 20px;
+    height: 20px;
+  }
+}

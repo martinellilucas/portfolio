@@ -48,16 +48,16 @@ const About = () => {
         </div>
       </div>
       <div className={style.tecnologies}>
-        <SiJavascript color="white" size={60} />
-        <FaJava color="white" size={60} />
-        <FaHtml5 color="white" size={60} />
-        <FaCss3 color="white" size={60} />
-        <FaNodeJs color="white" size={60} />
-        <SiExpress color="white" size={60} />
-        <SiSequelize color="white" size={60} />
-        <SiPostgresql color="white" size={60} />
-        <FaReact color="white" size={60} />
-        <SiRedux color="white" size={60} />
+        <SiJavascript className={style.tech} color="white" size={60} />
+        <FaJava className={style.tech} color="white" size={60} />
+        <FaHtml5 className={style.tech} color="white" size={60} />
+        <FaCss3 className={style.tech} color="white" size={60} />
+        <FaNodeJs className={style.tech} color="white" size={60} />
+        <SiExpress className={style.tech} color="white" size={60} />
+        <SiSequelize className={style.tech} color="white" size={60} />
+        <SiPostgresql className={style.tech} color="white" size={60} />
+        <FaReact className={style.tech} color="white" size={60} />
+        <SiRedux className={style.tech} color="white" size={60} />
       </div>
     </div>
   );

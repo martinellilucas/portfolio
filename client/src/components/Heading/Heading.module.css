@@ -63,3 +63,29 @@
   top: 0;
   left: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .body {
+    padding: 10px;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+  .textContainer {
+    width: 100%;
+    padding: 50px;
+  }
+  .heading {
+    font-size: 2em;
+  }
+  .greetings {
+    font-size: 1em;
+  }
+  .about {
+    font-size: 0.8em;
+  }
+  .slogan {
+    font-size: 0.7em;
+  }
+}
