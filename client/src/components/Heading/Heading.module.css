@@ -1,0 +1,64 @@
+.body {
+  background-color: black;
+  padding: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 50%;
+}
+
+.greetings {
+  color: orange;
+  font-size: 1.8em;
+  font-family: "Titillium Web", sans-serif;
+}
+.heading {
+  color: whitesmoke;
+  font-size: 4em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+.slogan {
+  font-family: "Titillium Web", sans-serif;
+  color: aliceblue;
+  font-style: italic;
+}
+.imgContainer {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.imgContainer img {
+  border-radius: 50%;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.imgContainer:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(0, 0, 0) 90%,
+    rgb(0, 0, 0) 90%
+  );
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

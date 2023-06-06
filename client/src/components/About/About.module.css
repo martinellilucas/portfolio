@@ -1,0 +1,33 @@
+.body {
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.textContainer {
+  width: 30%;
+  text-align: left;
+}
+
+.name {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5em;
+  color: whitesmoke;
+}
+
+.heading {
+  font-family: "Times New Roman", Times, serif;
+  color: orange;
+  font-size: 1.5em;
+}
+
+.text {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  font-size: 1.2em;
+}
+.img {
+  border-radius: 5%;
+}
