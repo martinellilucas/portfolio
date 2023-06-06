@@ -1,0 +1,15 @@
+.body {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+}
+
+.item {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
