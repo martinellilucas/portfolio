@@ -1,6 +1,6 @@
 .body {
   background-color: black;
-  padding: 150px;
+  padding: 225px;
   display: flex;
   justify-content: space-between;
 }
@@ -14,7 +14,7 @@
 
 .greetings {
   color: orange;
-  font-size: 1.8em;
+  font-size: 2em;
   font-family: "Titillium Web", sans-serif;
 }
 .heading {
@@ -26,13 +26,14 @@
 .about {
   font-family: "Titillium Web", sans-serif;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .slogan {
   font-family: "Titillium Web", sans-serif;
   color: aliceblue;
   font-style: italic;
+  font-size: 1.6em;
 }
 .imgContainer {
   border-radius: 50%;

@@ -29,8 +29,7 @@
   font-weight: bolder;
   font-size: 3em;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: whitesmoke;
-  text-shadow: 2px 2px 3px white;
+  color: orange;
 }
 
 .icons {
@@ -44,10 +43,10 @@
   align-items: center;
 }
 .icon {
-  color: white;
+  color: orange;
   text-decoration: none;
 }
 .icon:hover {
-  color: orange;
+  color: white;
   cursor: pointer;
 }
