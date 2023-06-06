@@ -58,6 +58,7 @@
     font-size: 0.5em;
   }
   .icon {
-    size: 5;
+    width: 15px;
+    height: 15px;
   }
 }
