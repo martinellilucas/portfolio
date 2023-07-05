@@ -4,10 +4,14 @@ import gym from "../../assets/gym.png";
 import food from "../../assets/food.png";
 import rick from "../../assets/rick.png";
 
-const Projects = () => {
+const Projects = ({ language }) => {
   return (
     <div className={style.body}>
-      <h1 className={style.title}>Projects</h1>
+      {language === "eng" ? (
+        <h1 className={style.title}>Projects</h1>
+      ) : (
+        <h1 className={style.title}>Proyectos</h1>
+      )}
       <div id="projects" className={style.projectsContainer}>
         <Project
           name="Henry's Gym"
