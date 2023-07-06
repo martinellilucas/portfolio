@@ -21,11 +21,11 @@ const About = ({ language }) => {
   return (
     <div id="about" className={style.body}>
       <div className={style.descContainer}>
-        <div className={style.imgContainer}>
+        <div data-aos="fade-right" className={style.imgContainer}>
           <img className={style.img} src={picture} alt="Lucas" />
         </div>
         {language === "eng" ? (
-          <div className={style.textContainer}>
+          <div data-aos="fade-left" className={style.textContainer}>
             <h1 className={style.name}>Lucas Martinelli</h1>
             <h2 className={style.heading}>Full Stack Developer</h2>
             <p className={style.text}>
@@ -48,7 +48,7 @@ const About = ({ language }) => {
             </p>
           </div>
         ) : (
-          <div className={style.textContainer}>
+          <div data-aos="fade-left" className={style.textContainer}>
             <h1 className={style.name}>Lucas Martinelli</h1>
             <h2 className={style.heading}>Full Stack Developer</h2>
             <p className={style.text}>
