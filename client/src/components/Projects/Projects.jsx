@@ -29,7 +29,7 @@ const Projects = ({ language }) => {
                 Web application for healthy food recipes with filtering, search
                 by name, ordering and recipe creation form.
               </p>
-              <Link className={style.link} to="https://henry-gym.onrender.com/">
+              <Link className={style.link} to="https://healty-food.onrender.com">
                 Visit
               </Link>
             </div>
@@ -40,7 +40,7 @@ const Projects = ({ language }) => {
                 login, search by character id, ordering, filtering and a
                 favorites section.
               </p>
-              <Link className={style.link} to="https://henry-gym.onrender.com/">
+              <Link className={style.link} to="https://rickandmorty-zlgu.onrender.com">
                 Visit
               </Link>
             </div>
@@ -67,7 +67,7 @@ const Projects = ({ language }) => {
                 búsqueda por nombre, ordenamiento ascendente y descendente y
                 formulario de creación recetas
               </p>
-              <Link className={style.link} to="https://henry-gym.onrender.com/">
+              <Link className={style.link} to="https://healty-food.onrender.com">
                 Visit
               </Link>
             </div>
@@ -78,7 +78,7 @@ const Projects = ({ language }) => {
                 búsqueda por id de personaje, ordenamiento, filtrado y sección
                 de favoritos
               </p>
-              <Link className={style.link} to="https://henry-gym.onrender.com/">
+              <Link className={style.link} to="https://rickandmorty-zlgu.onrender.com">
                 Visit
               </Link>
             </div>
